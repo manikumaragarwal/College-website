@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Admissions news">
+  <rect width="320" height="200" rx="16" fill="#fef3c7" />
+  <rect x="40" y="60" width="240" height="100" rx="16" fill="#f59e0b" />
+  <circle cx="120" cy="110" r="24" fill="#fde68a" />
+  <rect x="170" y="90" width="80" height="40" rx="10" fill="#fde68a" />
+</svg>

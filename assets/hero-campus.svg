@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Campus illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c7d2fe" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)" rx="32" />
+  <rect x="60" y="180" width="520" height="160" rx="24" fill="#0f172a" opacity="0.9" />
+  <rect x="110" y="140" width="420" height="60" rx="16" fill="#1d4ed8" />
+  <rect x="140" y="220" width="90" height="80" rx="8" fill="#f8fafc" />
+  <rect x="275" y="220" width="90" height="80" rx="8" fill="#f8fafc" />
+  <rect x="410" y="220" width="90" height="80" rx="8" fill="#f8fafc" />
+  <rect x="300" y="260" width="40" height="80" rx="6" fill="#1d4ed8" />
+  <circle cx="520" cy="90" r="28" fill="#fbbf24" />
+  <path d="M0 340h640v80H0z" fill="#14b8a6" opacity="0.7" />
+</svg>

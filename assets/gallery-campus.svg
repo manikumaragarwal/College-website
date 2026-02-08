@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Campus infrastructure">
+  <rect width="320" height="220" rx="16" fill="#e0f2fe" />
+  <rect x="40" y="80" width="240" height="100" rx="12" fill="#0f172a" />
+  <rect x="70" y="60" width="180" height="40" rx="10" fill="#1d4ed8" />
+  <circle cx="250" cy="50" r="20" fill="#fbbf24" />
+</svg>
