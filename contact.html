@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us - Shivaji College of Arts & Science</title>
+    <meta name="description" content="Contact Shivaji College for admissions, programs, and campus visits." />
+    <meta name="keywords" content="contact, admissions, Shivaji College" />
+    <meta name="author" content="Shivaji College of Arts & Science" />
+    <meta property="og:title" content="Contact Us" />
+    <meta property="og:description" content="Get in touch with Shivaji College." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.shivajicollege.edu.in/contact" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <span>Email: info@shivajicollege.edu.in</span>
+        <span>Phone: +91 20 2554 2330</span>
+        <span class="badge">Admissions Open 2026-27</span>
+        <a href="admissions.html" class="top-link">Apply Online</a>
+        <a href="contact.html" class="top-link">Login</a>
+      </div>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img
+            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=120&q=80"
+            alt="Shivaji College logo"
+          />
+          <div>
+            <strong>Shivaji College</strong>
+            <span>Arts & Science • Pune</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="faculty.html">Faculty</a>
+          <a href="student-life.html">Student Life</a>
+          <a href="placements.html">Placements</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="achievements.html">Achievements</a>
+          <a href="news.html">News & Events</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <button class="search-btn" data-modal-target="search-modal" aria-label="Open search">🔍</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="breadcrumb">Home / Contact</p>
+          <h1>Contact Us</h1>
+          <p>We are here to help with admissions, programs, and campus visits.</p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container info-grid">
+          <div class="form-card">
+            <h2>Send Us a Message</h2>
+            <form
+              id="contact-form"
+              class="form-grid"
+              action="https://formsubmit.co/info@shivajicollege.edu.in"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <label for="name">Name *</label>
+              <input id="name" name="name" type="text" required />
+              <span class="error-text" id="name-error"></span>
+
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" required />
+              <span class="error-text" id="email-error"></span>
+
+              <label for="phone">Phone *</label>
+              <input id="phone" name="phone" type="tel" required placeholder="10-digit number" />
+              <span class="error-text" id="phone-error"></span>
+
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select Subject</option>
+                <option value="admission">Admission Enquiry</option>
+                <option value="programs">Program Information</option>
+                <option value="feedback">Feedback</option>
+              </select>
+              <span class="error-text" id="subject-error"></span>
+
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <span class="error-text" id="message-error"></span>
+
+              <button class="btn primary" type="submit">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loader" style="display: none;">Sending...</span>
+              </button>
+              <div class="success-box">Thank you! Your message has been sent successfully.</div>
+              <div class="error-box">Sorry, there was an error. Please try again.</div>
+            </form>
+          </div>
+          <div class="info-card">
+            <h3>Contact Information</h3>
+            <p>Admissions Office: +91 20 2554 2330</p>
+            <p>Email: admissions@shivajicollege.edu.in</p>
+            <p>Office Hours: Mon - Sat, 9:00 AM - 5:00 PM</p>
+            <h4>Campus Address</h4>
+            <p>135 Fergusson College Road, Pune, Maharashtra 411004</p>
+            <iframe
+              title="Shivaji College Map"
+              src="https://maps.google.com/maps?q=Fergusson%20College%20Road%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="220"
+              style="border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Shivaji College</h3>
+          <p>Arts & Science • Pune</p>
+          <p>NAAC A+ | UGC Approved | Affiliated to SPPU</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="about.html">About</a>
+          <a href="admissions.html">Admissions</a>
+          <a href="faculty.html">Faculty</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <div>
+          <h4>Academics</h4>
+          <a href="academics.html">Departments</a>
+          <a href="academics.html#programs">Programs</a>
+          <a href="academics.html#calendar">Academic Calendar</a>
+          <a href="student-life.html">Student Life</a>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <p>135 Fergusson College Road, Pune, Maharashtra</p>
+          <p>Phone: +91 20 2554 2330</p>
+          <p>Email: info@shivajicollege.edu.in</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Shivaji College of Arts & Science. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="search-modal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <button class="modal-close" data-modal-close aria-label="Close search">×</button>
+        <h3>Search Shivaji College</h3>
+        <form class="search-form" action="news.html">
+          <input type="search" name="q" placeholder="Search programs, faculty, events" required />
+          <button class="btn primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
