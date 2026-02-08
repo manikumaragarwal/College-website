@@ -6,6 +6,13 @@ if (navToggle && primaryNav) {
     const isOpen = primaryNav.classList.toggle('is-open');
     navToggle.setAttribute('aria-expanded', String(isOpen));
   });
+
+  primaryNav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      primaryNav.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
 }
 
 const header = document.getElementById('site-header');

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.shivajicollege.edu.in/sitemap.xml
+Host: https://www.shivajicollege.edu.in
