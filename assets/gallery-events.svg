@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Campus events">
+  <rect width="320" height="220" rx="16" fill="#fdf4ff" />
+  <rect x="50" y="70" width="220" height="110" rx="16" fill="#7e22ce" />
+  <circle cx="110" cy="125" r="24" fill="#f0abfc" />
+  <circle cx="210" cy="125" r="24" fill="#e879f9" />
+</svg>
